@@ -1,0 +1,194 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    width: 100%;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    right: 190px;
+}
+
+li {
+    display: inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid #666666;
+}
+
+li:hover {
+    font-weight: bold; 
+}
+
+p {
+    color: #777777;
+}
+
+a {
+    color: #777777;
+}
+
+footer {
+    clear:both;
+    background-color: #666666;
+    text-align: center;
+    color: aliceblue;
+}
+
+.myName {
+    background-color: #4aaaa5;
+    float: left;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0px 10px 0px 200px;
+    padding: 10px;
+    width: 250px;
+    height: 75px;
+    top: 50%;
+}
+
+.about {
+    float: right;
+    margin:50px;
+    padding: 0 30px;
+    top: 50%;
+}
+
+.portfolio {
+    float: right;
+    margin: 50px;
+    top: 50%;
+}
+
+.contact {
+    float: right;
+    margin: 50px;
+    padding: 0 30px;
+    top: 50%;
+}
+
+.row {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/grey_wash_wall.png);
+    margin: 0%;
+    padding: 0%;
+}
+
+.primaryContent {
+    width: 650px;
+    padding: 30px;
+    margin: 30px 0px 50px 200px;
+    float: left;
+    background:#ffffff;
+    border: 1px solid #dddddd;
+    flex-wrap: inherit;
+}
+
+img {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#contentHeadline {
+    text-align: left;
+    color: #4aaaa5;
+}
+
+.contactContent {
+    float: left;
+    width: 270px;
+    background: #ffffff;
+    margin: 30px 0px 100px 40px;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+#contactHeadline {
+    text-align: left;
+    color: #4aaaa5;
+}
+
+#footerLink {
+    color: #ffffff;
+}
+
+#contactFormHeadline {
+    text-align: left;
+    color: #4aaaa5;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contactFormContent {
+    width: 650px;
+    padding: 30px;
+    margin: 30px 0px 50px 200px;
+    float: left;
+    background:#ffffff;
+    border: 1px solid #dddddd;
+    flex-wrap: inherit;
+}
+
+.submitButton {
+    background-color:#4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#form {
+    width: 100%;
+}
+
+#profileProject {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #cccccc;
+}
+
+#profprojText {
+    position: absolute;
+    top: 150px;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Small devices */
+@media (max-width: 640px) { ... }
+
+/* Medium devices*/
+@media (max-width: 768px) { ... }
+
+/* Large devices */
+@media (max-width: 980px) { ... }
